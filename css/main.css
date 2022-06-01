@@ -397,6 +397,11 @@ h2.catalog-name {
     object-fit: cover;
 }
 
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: #FBD120;
+}
+
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
     right: -50px !important;
