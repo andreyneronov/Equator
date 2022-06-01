@@ -1,0 +1,134 @@
+@media (max-width: 9999px) {
+    .mobile-nav-button {
+        display: none;
+    }
+}
+@media (max-width: 1280px) {
+
+
+    .wrapper,
+    .main-page-section,
+    .type-of-servise-section,
+    .type-of-servise-wrapper,
+    .catalog,
+    .partnership-wrapper,
+    .main-page-section,
+    .partnership-section {
+        width: 100%;
+    }
+
+    .wrapper {
+        background-position: top;
+    }
+
+    .main-page-information {
+        padding: 0 20px;
+    }
+
+    .type-of-servise-section {
+        width: 97%;
+    }
+
+    .type-of-servise-wrapper div:first-child {
+        padding-top: 140px;
+        padding-left: 50px;
+    }
+
+    .type-of-servise-wrapper p+p {
+        display: inline-block;
+    }
+
+    .catalog-name {
+        padding-left: 20px;
+    }
+
+    .catalog-wrapper {
+        padding: 0 20px;
+    }
+
+    .partnership-section h3 {
+        padding-left: 30px;
+    }
+
+    .gallery-container {
+        width: 80%;
+    }
+
+    .mobile-nav-button {
+        display: none;
+    }
+}
+
+@media (max-width: 1109px) {
+    .catalog-name,
+    .partnership-section h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .swiper {
+        width: 50%;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: 100px !important;
+        left: auto;}
+        .swiper-button-prev, .swiper-rtl .swiper-button-next {
+            left: 100px !important;
+            right: auto;}
+    .navigation-section,
+    .header-contact-section {
+        display: none;
+    }
+    .mobile-nav-button {
+        display: block;
+    }
+
+@media (max-width: 786px) {
+    .type-of-servise-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .type-of-servise-section {
+        width: 80%;
+    }
+
+    .main-page-information {
+        text-align: center;
+    }
+    .type-of-servise-wrapper div {
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, white 0%, white 24.9%, #b2b1b9 25%, #b2b1b9 74.9%, white 75%);
+        border-image-slice: 1;
+        padding: 140px 20px 0 20px  !important;
+    }
+
+    .catalog {
+        padding-top: 50px;
+    }
+    
+    .years-of-market::before,
+    .consultation::before,
+    .free-calculation::before {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -70px;
+    }
+
+}
+
+@media (max-width:585px) {
+    .type-of-servise-section {
+        margin-top: -230px;
+    }
+}
+
+
+@media (max-width: 576px){  .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;}}
+
+
+  }

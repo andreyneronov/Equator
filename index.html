@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/mobile-nav-button.css">
+    <link rel="stylesheet" href="./css/mobile-nav.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <title>Покрівельні системи</title>
 </head>
@@ -23,7 +26,7 @@
                     </div>
                     <nav class="navigation-section">
                         <ul class="navigation-list">
-                            <li class="navigation-items"><a href="">Каталог</a></li>
+                            <li class="navigation-items"><a href="#catalog">Каталог</a></li>
                             <li class="navigation-items"><a href="">Калькулятор материалов</a></li>
                             <li class="navigation-items"><a href="">Контакты</a></li>
                             <li class="navigation-items"><a href="">Новости</a></li>
@@ -32,16 +35,37 @@
                     <div class="header-contact-section">
                         <a class="" href="tel:+38 099 999 99 99">+38 099 999 99 99</a>
                     </div>
+                    <button type="button" class="mobile-nav-button">
+                        <span class="mobile-nav-button__icon"></span>
+                    </button>
                 </header>
+                <div class="mobile-nav">
+                    <img class="mobile-nav-logo" src="./img/Logo.svg" alt="Logo" />
+            
+                    <nav class="mobile-nav-list">
+                        <ul>
+                            <li class="navigation-items"><a href="#catalog">Каталог</a></li>
+                            <li class="navigation-items"><a href="">Калькулятор материалов</a></li>
+                            <li class="navigation-items"><a href="">Контакты</a></li>
+                            <li class="navigation-items"><a href="">Новости</a></li>
+                        </ul>
+                    </nav>
+            
+                    <div class="mobile-login">
+                        <a class="" href="#">Sign in</a>
+                        <a href="#" class="btn btn-big">Start Trial</a>
+                    </div>
+                </div>
             </div>
             <div class="main-page-information">
                 <h1 class="company-specification">Материалы для кровли и фасада</h1>
                 <p class="company-information">Индивидуализированные предложения товаров от более чем 50 производителей
                 </p>
+                <a class="anchor-btn" id="anchor-btn" href="#catalog">
+                    <span class="anchor-btn-text">Перейти в каталог</span>
+                </a>
             </div>
-            <a class="anchor-btn" id="anchor-btn" href="#catalog">
-                <span class="anchor-btn-text">Перейти в каталог</span>
-            </a>
+
         </div>
         <!-- type of servise section -->
         <div class="type-of-servise-section">
@@ -132,6 +156,7 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/nav.js"></script>
 </body>
 
 </html>
