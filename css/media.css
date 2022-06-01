@@ -84,6 +84,13 @@
     .mobile-nav-button {
         display: block;
     }
+    .mobile-nav-list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+}
+
 
 @media (max-width: 786px) {
     .type-of-servise-wrapper{
